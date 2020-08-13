@@ -1,0 +1,13 @@
+.speedSelection {
+    width: 3.5rem;
+    height: 2rem;
+    font: inherit;
+    font-weight: bold;
+    color: gray;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding-left: 12px;
+}
+

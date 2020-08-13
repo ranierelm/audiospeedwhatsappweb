@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "AudioSpeedy for Whatsapp",
+    "author": "Raniere Lima",
+    "version": "0.0.1",
+    "description": "Don't waste time with long audio messages. AudioSpeed ​​regulates the playback speed of Whatsapp Web messages.",
+    "icons": {"128": "/images/icon.png"},
+    "content_scripts": [
+        {
+            "matches": [
+                "https://web.whatsapp.com/"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+    
+}
